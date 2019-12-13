@@ -97,7 +97,7 @@ color: #000000;
 	flex-direction: row;
 	flex-wrap: nowrap;
 
-	margin-bottom: 32px;
+	margin-bottom: 20px;
 	width: 530px;
 	height: auto;
 	background: #FFFFFF;
@@ -175,7 +175,7 @@ color: #000000;
 	border-radius: 8px;
 }
 .icon_2{
-	margin-right: 120px;
+	margin-right: 100px;
 	width: 40.42px;
 	height: 24.97px;
 	background: #000000;
@@ -183,7 +183,7 @@ color: #000000;
 }
 .price{
 	margin: 0;
-	width: auto;
+	width: 120px;
 	height: auto;
 
 font-style: normal;
@@ -212,10 +212,10 @@ color: #000000;
 	border: 2px solid #DEDEDE;
 }
 .right_col{
-	width: 281px;
+	width: auto;
 }
 .right_block{
-
+position: fixed;
 	width: 290px;
 	height: auto;
 	background: #FFFFFF;
@@ -223,6 +223,7 @@ color: #000000;
 	border-radius: 15px;
 }
 .right_block_container{
+
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
@@ -298,7 +299,7 @@ color: #000000;
 .sumup_without_discount h1{
 	width: auto;
 	height: auto;
-	padding-right: 30px;
+	padding-right: 25px;
 	margin: 0;
 
 font-style: normal;
@@ -309,7 +310,7 @@ line-height: 96%;
 color: #000000;
 }
 .sumup_without_discount h2{
-	width: auto;
+	width: 170px;
 	height: auto;
 	margin: 0;
 	text-align: right;
@@ -319,7 +320,7 @@ font-weight: 600;
 font-size: 36px;
 line-height: 96%;
 /* or 35px */
-text-decoration-line: line-through;
+text-decoration-line: none;
 color: #000000;
 
 }
