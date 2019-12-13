@@ -1,6 +1,6 @@
 @font-face {
 font-family: "futurademic";
-src: url("../futurademic.otf") format("opentype");
+src: url("../fonts/futurademic.otf") format("opentype");
 }
 html{
 max-width: auto;
@@ -16,13 +16,13 @@ body{
 	min-width: 1480px;
 	box-shadow: 0px 4px 64px rgba(0, 0, 0, 0.15);
 }
-.container{	
+.container{
 	padding: 0;
 	margin-left: auto;
 	margin-right: auto;
 	height: 131px;
 	width: 1460px;
-	
+
 }
 .header_logo h1{
 	margin: 0;
@@ -71,7 +71,7 @@ color: #000000;
 	min-height: 100%;лы
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between; 
+	justify-content: space-between;
 	flex-direction: row;
 	width: 1460px;
 	height: 100%;
@@ -85,7 +85,7 @@ color: #000000;
 	flex-direction: row;
 	justify-content: space-between;
 	height: auto;
-	width: 1090px;	
+	width: 1090px;
 }
 /*.left_blocks input{
 	transition: 0.2s linear;
@@ -157,7 +157,7 @@ line-height: 96%;
 color: #000000;
 }
 .icon{
-	
+
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -185,7 +185,7 @@ color: #000000;
 	margin: 0;
 	width: auto;
 	height: auto;
-	
+
 font-style: normal;
 font-weight: 600;
 font-size: 24px;
@@ -203,7 +203,7 @@ color: #000000;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
-	width: 89px;	
+	width: 89px;
 
 }
 .line{
@@ -215,7 +215,7 @@ color: #000000;
 	width: 281px;
 }
 .right_block{
-	
+
 	width: 290px;
 	height: auto;
 	background: #FFFFFF;
@@ -241,7 +241,7 @@ color: #000000;
 }
 .discount h1{
 	margin: 0;
-		
+
 font-style: normal;
 font-weight: 600;
 font-size: 24px;
@@ -265,7 +265,7 @@ color: #000000;
 .discount h3{
 	padding-top: 5px;
 	margin: 0;
-	
+
 font-style: normal;
 font-weight: 600;
 font-size: 14px;
@@ -370,7 +370,4 @@ a {
 	background: #F8F8F8;
 	min-width: 1480px;
 	box-shadow: 0px 4px 64px rgba(0, 0, 0, 0.15);
-}
-input:checked + label .left_blocks {
-  background: red;
 }
