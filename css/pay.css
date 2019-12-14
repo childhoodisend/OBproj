@@ -8,6 +8,9 @@ html{
 }
 body{
   font-family: "futurademic";
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 	height: 100%;
   width: 100%;
   margin: 0;
@@ -33,6 +36,9 @@ header{
   width: 1460px;
   height: 131px;
 }
+.header_container span{
+  display: none;
+}
 .header_logo{
   margin-top: 34px;
   margin-bottom: auto;
@@ -43,7 +49,7 @@ header{
   margin-top: 40px;
   margin-bottom: 30px;
   height: auto;
-  align-items: center;
+  align-content: center;
 	width: 1460px;
 	margin-left: auto;
 	margin-right: auto;
@@ -55,7 +61,7 @@ header{
 	font-weight: 600;
 	font-size: 48px;
 	line-height: 96%;
-	text-transform: uppercase;
+
 	/* or 46px */
 	color: #000000;
 }
@@ -71,19 +77,13 @@ header{
   flex-direction: row;
   justify-content: center;
   width: 1480px;
-  height: auto;
 }
 .block_1{
-
   width: 286px;
 }
 .block_2{
   margin-left: 120px;
   width: 298px;
-  height: 384px;
-  background: #FFFFFF;
-  box-shadow: 0px 24px 32px rgba(0, 0, 0, 0.1);
-  border-radius: 15px;
 }
 .block_1_container{
   background: #FFFFFF;
@@ -99,7 +99,10 @@ header{
 .block_2_container{
   padding: 20px;
   width: auto;
-  height: auto;
+  height: 384px;
+  background: #FFFFFF;
+  box-shadow: 0px 24px 32px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
 }
 .your_order{
   font-style: normal;
@@ -165,7 +168,9 @@ header{
   color: #000000;
 
 }
-
+form{
+  align-items: center;
+}
 input{
   width: 251px;
   height: 42px;
@@ -174,9 +179,9 @@ input{
   box-sizing: border-box;
   border-radius: 10px;
   font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 96%;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 96%;
 /* or 17px */
 
 text-align: center;
@@ -188,31 +193,29 @@ color: #000000;
 	width: 251px;
 	height: 48px;
 	background: #31E08C;
-border-radius: 46px;
- border-style: solid;
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 96%;
-color: #FFFFFF;
+  border-radius: 46px;
+  border-style: solid;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 96%;
+  color: #FFFFFF;
 }
-
-
 
 /* LINE*/
 .line_container{
   position: absolute;
-  bottom: 151px;
-  right: auto;
+  bottom: 160px;
   left: auto;
-  margin-left: auto;
-  margin-right: auto;
+  right: auto;
   height: 2px;
-	width: auto;
+	width: 100%;
 
 }
 .line{
-  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1460px;
   border: 2px solid #DEDEDE;
 }
 /*FOOTER*/
@@ -222,9 +225,7 @@ footer{
   min-width: 1460px;
   height: 150px;
   width: 100%;
-  background: #F8F8F8;
-  box-shadow: 0px 24px 32px rgba(0, 0, 0, 0.1);
-  border-radius: 15px;
+  background: #E5E5E5;
 }
 .container_footer{
   display: flex;
@@ -233,7 +234,6 @@ footer{
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
   align-items:center;
   width: 1460px;
   height: 150px;

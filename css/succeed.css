@@ -8,6 +8,8 @@ html{
 }
 body{
   font-family: "futurademic";
+  display: flex;
+  flex-direction: column;
 	height: 100%;
   width: 100%;
   margin: 0;
@@ -102,17 +104,20 @@ line-height: 96%;
 color: #000000;
 }
 .line_container{
-  margin-left: auto;
-  margin-right: auto;
+  position: absolute;
+  bottom: 160px;
+    left: auto;
+    right: auto;
   height: 2px;
-	width: 1460px;
-  margin-top: 56px;
+	width: 100%;
+
 }
 .line{
+margin-left: auto;
+margin-right: auto;
   width: 1460px;
   border: 2px solid #DEDEDE;
 }
-
 footer{
   position: absolute;
   bottom: 0;
