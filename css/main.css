@@ -3,6 +3,7 @@ font-family: "futurademic";
 src: url("../fonts/futurademic.otf") format("opentype");
 }
 html{
+
   width: 100%;
 }
 body{

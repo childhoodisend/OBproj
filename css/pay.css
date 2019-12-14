@@ -5,12 +5,14 @@ src: url("../fonts/futurademic.otf") format("opentype");
 html{
   height: 100%;
   width: 100%;
+  min-height: 900px;
 }
 body{
   font-family: "futurademic";
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  min-height: 900px;
 	height: 100%;
   width: 100%;
   margin: 0;
