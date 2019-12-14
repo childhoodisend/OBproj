@@ -80,7 +80,7 @@ header{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-
+  justify-content: flex-start;  
 	margin-bottom: 20px;
 	width: 530px;
 	height: auto;

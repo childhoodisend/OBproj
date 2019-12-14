@@ -222,3 +222,17 @@ color: #F11F1F;
 	}
 
 }
+@media all and (max-width: 1460px ) and (min-width: 420px) {
+	.text h6{
+		margin-left: 150px;
+	}
+	.left_col{
+		margin-left: 150px;
+		width: 530px;
+	}
+
+	.main_container{
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
