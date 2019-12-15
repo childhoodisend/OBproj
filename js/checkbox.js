@@ -1,39 +1,29 @@
-
-function calculate(){
+	function calculate(){
 	var list = document.getElementsByClassName('left_blocks');
 	var counter = 0;
 	var money = 0;
 	for (var i = 0; i < list.length; i++) {
-		if(list[i].getElementsByTagName('input')[0].checked){
+		if(list[i].getElementsByTagName('input')[0].checked) {
 			counter = counter + 1;
 			money = money + parseInt(list[i].getElementsByTagName('span')[0].innerHTML);
-
 		}
 	}
-	/*
-	от 3 10%
-	от 5 20%
-	от 10 30%
-	от 15 40%
-	от 24 50%
-	*/
 	var multiplie = 1.0;
 	var discount;
-	if(counter >= 3 && counter < 5){
-		multiplie = 0.9;
+		if(counter >= 3 && counter < 5) {
+			multiplie = 0.9;
 	}
-	if(counter >= 5 && counter < 10)
-	{
-		multiplie = 0.8;
+	 	if(counter >= 5 && counter < 10) {
+			multiplie = 0.8;
 	}
-	if (counter >= 10 && counter < 15) {
-		multiplie = 0.7;
+		if (counter >= 10 && counter < 15) {
+			multiplie = 0.7;
 	}
-	if (counter >= 15 && counter < 24) {
-		multiplie = 0.6;
+		if (counter >= 15 && counter < 24) {
+			multiplie = 0.6;
 	}
-	if (counter >= 24) {
-		multiplie = 0.5;
+		if (counter >= 24) {
+			multiplie = 0.5;
 	}
 
 	discount = (1.0 - multiplie) * 100.0;//скидка
@@ -55,18 +45,30 @@ function calculate(){
 
 
 //сколько осталось до очередной скидки
-	if(counter < 3)
+	if(counter < 3){
 	document.getElementById('recipe_to_discount_').textContent = 3 - counter;
-	else if(counter < 5)
+	document.getElementById('mobile_disc').textContent =  3 - counter + " до следующей скидки";
+	}
+	else if(counter < 5){
 	document.getElementById('recipe_to_discount_').textContent = 5 - counter;
-	else if(counter < 10)
+	document.getElementById('mobile_disc').textContent =  5 - counter + " до следующей скидки";
+	}
+	else if(counter < 10){
 	document.getElementById('recipe_to_discount_').textContent = 10 - counter;
-	else if(counter < 15)
+	document.getElementById('mobile_disc').textContent = 10 - counter + " до следующей скидки";
+	}
+	else if(counter < 15){
 	document.getElementById('recipe_to_discount_').textContent = 15 - counter;
-	else if(counter < 24)
+	document.getElementById('mobile_disc').textContent = 15 - counter + " до следующей скидки";
+	}
+	else if(counter < 24){
 	document.getElementById('recipe_to_discount_').textContent = 24 - counter;
-	else if(counter >= 24)
-		document.getElementById('recipe_to_discount_').textContent = 0;
+	document.getElementById('mobile_disc').textContent = 24 - counter + " до следующей скидки";
+	}
+	else if(counter >= 24){
+	document.getElementById('recipe_to_discount_').textContent = 0;
+	document.getElementById('mobile_disc').textContent = "Максимальная скидка";
+	}
 }
 
 
