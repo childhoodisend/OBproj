@@ -103,11 +103,11 @@ color: #000000;
   margin: 0;
   width: 270px;
   font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 96%;
-/* or 13px */
-color: #000000;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 96%;
+  /* or 13px */
+  color: #000000;
 }
 /*LINE*/
 .line_container{
@@ -147,52 +147,52 @@ footer{
 }
 .logo{
   float: left;
-      display: block;
-      width: 130px;
-      height: 122px;
-      background-image: url(../img/logo.svg);
-      background-position: center;
-      background-repeat: no-repeat;
-      /* background-size: cover; */
-      background-size: auto;
+  display: block;
+  width: 130px;
+  height: 122px;
+  background-image: url(../img/logo.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-size: auto;
 }
 .nav{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
 }
 .logo_1{
   width: 24px;
-height: 24px;
-margin-right: 10px;
-background-image: url(../img/inst.png);
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-display: block;
-filter: invert(100%);
+  height: 24px;
+  margin-right: 10px;
+  background-image: url(../img/inst.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  filter: invert(100%);
 }
 .logo_2{
   width: 28px;
-    height: 17px;
-    margin-right: 10px;
-    background-image: url(../img/vk.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: block;
-    filter: invert(100%);
+  height: 17px;
+  margin-right: 10px;
+  background-image: url(../img/vk.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  filter: invert(100%);
 }
 .logo_3{
   width: 35px;
-height: 26px;
-background-image: url(../img/youtube.png);
-background-position: center;
-background-repeat: no-repeat;
-background-size: 30px;
-display: block;
+  height: 26px;
+  background-image: url(../img/youtube.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  display: block;
 }
 .confidence_policy{
   display: flex;

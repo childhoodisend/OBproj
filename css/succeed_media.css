@@ -128,16 +128,15 @@ color: #000000;
 }
 @media all and (min-width: 426px ) and (max-width: 1700px) {
 	html{
-		height: 100%;
-		width: 100%;
+		height: auto;
+		width: auto;
 		min-width: 1700px;
 	}
 	body{
 		min-width: 1700px;
-    height: 100%;
-		width: 100%;
+		height: auto;
+		width: auto;
+
 	}
-  .footer{
-    min-width: 1460px;
-  }
+
 }
