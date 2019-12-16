@@ -55,7 +55,8 @@ header{
 	color: #000000;
 }
 .main_info{
-	height: 100%;
+	height: auto;
+
 }
 .main_container{
 	display: flex;
@@ -174,7 +175,9 @@ header{
 	width: auto;
 }
 .right_block{
-  position: fixed;
+  position: sticky;
+  margin-bottom: 20px;
+  top: 50px;
 	width: 290px;
 	height: auto;
 	background: #FFFFFF;
