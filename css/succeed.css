@@ -111,6 +111,8 @@ color: #000000;
 }
 /*LINE*/
 .line_container{
+  position: fixed;
+  bottom: 152px;
   height: 2px;
 	width: 100%;
 
@@ -124,6 +126,8 @@ color: #000000;
 
 /*FOOTER*/
 footer{
+  position: fixed;
+  bottom: 0;
   min-width: 1460px;
   height: 150px;
   width: 100%;
