@@ -7,6 +7,7 @@ body{
   min-width: 320px;
 }
 html{
+  min-width: 320px;
   width: auto;
   height: auto;
 }
@@ -117,4 +118,23 @@ width: auto;
   width: 250px;
   align-items: center;
 }
+}
+@media all and (min-width: 426px ) and (max-width: 1700px) {
+	html{
+		height: auto;
+		width: auto;
+		min-width: 1700px;
+	}
+	body{
+		min-width: 1700px;
+		height: auto;
+		width: auto;
+	}
+  .footer{
+    min-width: 1460px;
+  }
+  .container_footer{
+    margin-left: auto;
+
+  }
 }

@@ -79,14 +79,14 @@ header{
   border-radius: 15px;
 }
 .succeed_info h1{
-padding-top: 26px;
-padding-left: 50px;
-margin: 0;
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 96%;
-/* or 23px */
+  padding-top: 26px;
+  padding-left: 50px;
+  margin: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 96%;
+  /* or 23px */
 
 
 color: #000000;
@@ -111,26 +111,19 @@ color: #000000;
 }
 /*LINE*/
 .line_container{
-  position: absolute;
-  bottom: 160px;
-    left: auto;
-    right: auto;
   height: 2px;
 	width: 100%;
 
 }
 .line{
-margin-left: auto;
-margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 1460px;
   border: 2px solid #DEDEDE;
 }
 
 /*FOOTER*/
 footer{
-  position: absolute;
-  bottom: 0;
-
   min-width: 1460px;
   height: 150px;
   width: 100%;

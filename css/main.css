@@ -2,14 +2,15 @@
 font-family: "futurademic";
 src: url("../fonts/futurademic.otf") format("opentype");
 }
-
 html{
   width: 100%;
+  min-width: 1460px;
 }
 body{
   font-family: "futurademic";
 	height: 100%;
   width: 100%;
+  min-width: 1460px;
   margin: 0;
   padding: 0;
 	background: #E5E5E5;
@@ -29,14 +30,14 @@ header{
   width: 1460px;
   height: 131px;
 }
+.header_container span{
+  display: none;
+}
 .header_logo{
   margin-top: 34px;
   margin-bottom: auto;
   width: 138px;
   height: 63px;
-}
-.header_logo h2{
-	display: none;
 }
 .text{
 	width: 1460px;
@@ -62,7 +63,6 @@ header{
 	justify-content: space-between;
 	flex-direction: row;
 	width: 1460px;
-	min-height: calc(100vh - 80px);
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 47px;
@@ -144,22 +144,9 @@ header{
 	width: auto;
 	height: 25px;
 }
-.icon_1{
-	margin-right: 11px;
-	width: 40.42px;
-	height: 24.97px;
-	background: #000000;
-	border-radius: 8px;
-}
-.icon_2{
-	margin-right: 100px;
-	width: 40.42px;
-	height: 24.97px;
-	background: #000000;
-	border-radius: 8px;
-}
 .price{
 	margin: 0;
+  margin-left: 180px;
 	width: 120px;
 	height: auto;
   font-style: normal;
